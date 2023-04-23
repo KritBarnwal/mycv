@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <h2>Contact details</h2>
+    <p style="font-size: larger;"> <strong> Email : </strong>  <a href="mailto:yashent19977@gmail.com" style="text-decoration: none; color:rgb(37, 37, 37)">Kritbarnwal122@gmail.com</a></p>
+    <h4>Address : Shahdara ,DELHI</h4>
+    <h3>OR</h3>
+    <P>Fill this to get in touch with me</P>
+    <form action="mailto:yashent1977@gmail.com" method="post" enctype="text/plain"
+        style="border: 2px solid black; width: 500px;padding: 10px;">
+        <label for="name">Name : </label>
+        <input type="text" name="Name" id="name" minlength="2"  placeholder="JOHN" required>
+        <br>
+        <label for="contact_no">Contact no : </label>
+        <select name="pin " id="">
+            <option value="india">+91</option>
+            <option value="Afghanistan">+92</option>
+            <option value="Pakistan">+93</option>
+        </select>
+        <input type="tel" name="tel" id="contact_no" minlength="10" maxlength="10" placeholder="7811556688">
+        <br>
+        <label for="email" id="">Email</label>
+        <input type="email" name="Email : " id="email" placeholder="Contact@gmail.com">
+        <br>
+        <label for="reason">Reason :</label>
+        <textarea name="Subject : " id="krit" cols="25" rows="5"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
